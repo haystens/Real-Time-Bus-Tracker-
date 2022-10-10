@@ -17,12 +17,17 @@ mapboxgl.accessToken = 'pk.eyJ1IjoidGVzdHVzZXIxMDAwIiwiYSI6ImNraDkzZ2pkMzAzMHoyc
 
 let map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/streets-v11',
+  style: 'mapbox://styles/mapbox/dark-v10',
   center: [-71.104081, 42.365554],
-  zoom: 7,
+  zoom: 15,
 });
 
-let marker = new mapboxgl.Marker().setLngLat([-71.092761, 42.357575]).addTo(map);
+const marker2 = new mapboxgl.Marker({
+color: "#450d0d"
+})
+
+let marker = marker2.setLngLat([-71.092761, 42.357575]).addTo(map);
+
 let counter = 0;
 function move() {
 setTimeout(() => {
@@ -32,7 +37,6 @@ setTimeout(() => {
     move();
   }, 1000);
 }
-
 if (typeof module !== 'undefined') {
   module.exports = { move };
 }
