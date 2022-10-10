@@ -1,0 +1,14 @@
+body {
+  margin: 10px;
+  padding: 10px;
+}
+
+map {
+  position: absolute;
+}
+  
+.map-overlay {
+  position: absolute;
+  left: 0;
+  padding: 10px;
+}
