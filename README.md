@@ -1,6 +1,6 @@
 Real-Time-Bus-Tracker
 
-This project was originally designed as 
+This project was designed as a map animation for the bus stops between MIT and Harvard. The map marker moves after the viewer has pressed the top left button, and will view the stops based on a second interval. You can view and use this map by pasting it into your browser. Additional functionalities or features that would be helpful for future users could be having an option that allows the viewer to see all bus stops points at once, rather than having to click and play through all the bus stops again. With that being said another possible feature could be after each marker passes, a point is left so the viewer can see any/all of the given points.  
 
 MIT License
 
